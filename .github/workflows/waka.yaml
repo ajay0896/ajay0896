@@ -1,23 +1,22 @@
 name: Waka Readme
 
 on:
+  # for manual workflow trigger
+  workflow_dispatch:
   schedule:
-    # Jalan otomatis setiap jam 12 malam
-    - cron: '0 0 * * *'
-  workflow_dispatch: # Supaya bisa dijalankan manual juga
+    # runs at 12 AM UTC (5:30 AM IST)
+    - cron: "0 0 * * *"
 
 jobs:
   update-readme:
-    name: Update Readme with Metrics
+    name: WakaReadme DevMetrics
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-      pull-requests: write
     steps:
-      - uses: anmol098/waka-readme-stats@master
+      - uses: athul/waka-readme@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           SHOW_MASKED_TIME: True
           SHOW_TIME: true
           SHOW_TOTAL: true
           TIME_RANGE: "all_time"
+          
