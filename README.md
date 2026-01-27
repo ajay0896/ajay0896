@@ -21,6 +21,9 @@ I'm a second-year **Computer Engineering** student passionate about technology a
 </div>
 
 ## 📊 My Stats
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=ajay0896&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="150" />
