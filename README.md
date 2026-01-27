@@ -24,7 +24,7 @@ I'm a second-year **Computer Engineering** student passionate about technology a
 
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ajay0896&theme=tokyonight&hide_border=true" />
+  <img src="https://streak-stats.demolab.com?user=ajay0896&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
   
   <br/>
 
