@@ -20,6 +20,8 @@ I'm a second-year **Computer Engineering** student passionate about technology a
 </div>
 
 ## 📊 My Stats
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
 
 
 <div align="center">
